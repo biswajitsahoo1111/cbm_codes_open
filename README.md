@@ -1,4 +1,4 @@
 ## Codes and Data
-This repository contains codes and data to reproduce results in machinery condition monitoring. Several public datasets that are commonly used have been used in this study. This list will be appended over time. 
+This repository contains codes and data to reproduce results in machinery condition monitoring. Several public datasets that are commonly used in research have been used in this study. Refer this [project page](https://biswajitsahoo1111.github.io/project/personal-project/) for further details. 
 
-Feature matrices have been computed on the [Case Western Reserve University Bearing Data](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website). 
+The [project page](https://biswajitsahoo1111.github.io/project/personal-project/) and various [blog articles](https://biswajitsahoo1111.github.io/categories/blog/) can be accessed from my [personal website](https://biswajitsahoo1111.github.io/).
