@@ -57,3 +57,5 @@ applications. We will use one of those for our demonstrations.
     features](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/SVM_multiclass_time.pdf)
     (On [Case Western Reserve University Bearing
     Data](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website))
+
+(This list will be updated gradually.)
