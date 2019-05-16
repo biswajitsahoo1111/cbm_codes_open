@@ -2,8 +2,8 @@
 title: "Multiclass classification using SVM on time domain features"
 author: "Biswajit Sahoo"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 In this post we will use [Case Western Reserve University Bearnig](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website) data set for our multiclass classification problem. 
 
@@ -42,8 +42,8 @@ use_condaenv("r-reticulate")
 First get the data from [here](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/data/feature_matrix_time_48k_2048_load_1.csv). Save the data in a folder and read it from that folder. 
 ```{r}
 library(e1071)
-data_time = read.csv('./feature_matrix/48k/feature_matrix_time_48k_2048_load_1.csv',header = T)
-# Change to above line to include your folder that contains data
+data_time = read.csv('./feature_matrix/48k/feature_matrix_time_48k_2048_load_1.csv', header = T)
+# Change the above line to include your folder that contains data
 set.seed(1)
 index = c(sample(1:200,50),sample(201:400,50), sample(401:600,50),
           sample(601:800,50),sample(801:1000,50),sample(1001:1200,50),
@@ -78,16 +78,20 @@ fault_type = ['C1','C2','C3','C4','C5','C6','C7','C8','C9','C10']
 plt.figure(1)
 sns.heatmap(r.train_confu, annot= True, fmt = "d",
 xticklabels=fault_type, yticklabels=fault_type)
-plt.show()
+plt.title('Training Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
+plt.show()
 plt.figure(2)
 sns.heatmap(r.test_confu, annot = True, fmt = "d",
 xticklabels=fault_type, yticklabels=fault_type)
-plt.show()
+plt.title('Test Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
+plt.show()
 ```
 It can be seen that the test accuracy is not extremely high but it is not bad either. Remember that we have only taken time domain feature. We will show in the next post that accuracy improves even further if we use wavelet features.
 
-Last modified: 16/05/2019
+[R markdown file of this document](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/SVM_multiclass_time.Rmd)
+
+Last modified: 16$^{\text{th}}$ May, 2019
