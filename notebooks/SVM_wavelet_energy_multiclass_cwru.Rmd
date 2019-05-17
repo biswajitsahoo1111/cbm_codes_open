@@ -1,8 +1,9 @@
 ---
-title: "Multiclass_classification_wavelet_energy"
+title: "Multiclass classification using SVM on wavelet packet energy features"
 author: "Biswajit Sahoo"
-date: "5/17/2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 (Before reading this article, take a look at [this link](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/SVM_multiclass_time.pdf) for comparison)
 
@@ -33,6 +34,7 @@ There are 10 class for this external load (1 hp). The classes are:
 Our task is to classify these 10 types of fault given time data. There are many approaches to solve this. We will take one known as 'Shallow Approach'. In the age of deep learning these methods are shallow for several reasons. These methods require hand crafted features to be designed and fed into the learning algorithm. Another name for shallow approach is feature based approach. We will use support vector machine (SVM) to do the classification. We will apply other techniques including deep learning techniques in later posts. 
 
 Wavelet analysis is a signal processing technique that gives us time-frequency representation. The inner workings of wavelets are different than traditional time-frequency methods (for example, spectrograms). We will not go into the details of wavelets here (It is saved for a later post.). Wavelet packets are a way of segregating a signal into different frequency bands. A pictorial representation will make the difference between wavelets and wavelet packets clear. (Note on notation: S-Signal, H- Low pass filter, G- High pass filter, $\downarrow 2$ - Downsampling by factor of 2, A1- Approximation coefficients corresponding to low frequency, D1- Detail coefficients corresponding to high frequency)
+
 ![Wavelet decomposition](wavelets_fig.png)
 
 ![Wavelet packet decomposition](wavelet_packet_fig.png)
@@ -55,7 +57,9 @@ use_condaenv("r-reticulate")
 First get the data from [here](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/data/feature_matrix_wav_energy8_48k_2048_load_1.csv). Save the data in a folder and read it from that folder. 
 ```{r}
 library(e1071)
-data_wav_energy = read.csv('./feature_matrix/48k/feature_matrix_wav_energy8_48k_2048_load_1.csv',header = T)
+data_wav_energy = read.csv(paste("./feature_matrix/48k",
+                          "/feature_matrix_wav_energy8_48k_2048_load_1.csv",
+                          sep = ""), header = T)
 # Change the above line to include your folder that contains data
 set.seed(1)
 index = c(sample(1:200,50),sample(201:400,50), sample(401:600,50),
