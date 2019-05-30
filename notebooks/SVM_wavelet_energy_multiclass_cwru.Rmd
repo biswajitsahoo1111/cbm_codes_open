@@ -45,7 +45,7 @@ Here is how we form feature matrix. First data for each fault type are collected
 
 Before applying SVM, the data are first separated into a training set and a test set. The test set contains 50 rows of fault matrix chosen for each fault type. Thus its size is $(500 \times 9)$. The rest are taken as training set. 
 
-SVM is applied to training set data and best parameters are chosen by cross validation. The best parameters are then applied to test set data to predict final classification result. We have not printed the intermediate results. Readers can easily print those as per requirement.
+SVM is applied to training set data and best parameters are chosen by cross validation. The best parameters are then applied to test set data to predict final classification result. We have not printed the intermediate results. Readers can easily print those as per requirement. We will use R to implement SVM. To plot confusion matrix, we will use Python.
 
 
 ## Codes
@@ -111,12 +111,12 @@ It can be seen that we have obtained slightly higher accuracy as compared to tim
 
 ## Note: 
 
-* Data for each case contains both drive end measurements and fan end measurements. For our study we have taken drive end measurements. Another point to note is that our segments are non-overlapping and each has 2048 data points. It turns out that from the original data 230 segments of 2048 data points each can be obtained for each fault type. But in out study we have taken first 200 segments for each fault type. 
+* Data for each case contains both drive-end measurements and fan-end measurements. For our study we have taken drive-end measurements. Another point to note is that our segments are non-overlapping and each has 2048 data points. It turns out that from the original data 230 segments of 2048 data points each can be obtained for each fault type. But in out study we have taken first 200 segments for each fault type. 
 
-* Regarding hyper parameters of SVM, reader are encouraged to try different cost functions. Trying a higher cost allows for more misclassified points while training. For this case and the previous case, slight improvements can be obtained in test accuracy by using a higher cost values. We have set the upper value of cost to be 200 for no good reason. 
+* Regarding hyper parameters of SVM, readers are encouraged to try different cost values. Trying a higher cost allows for more misclassified points while training. For this case and the previous case, slight improvements can be obtained in test accuracy by using a higher cost value. We have set the upper value of cost to be 200 for no good reason. 
 
-* Finally, more details about wavelet packet features and the ways (with codes) to computed them will appear in a future post. For the time being, readers can download and use the feature matrix already created by us.
+* Finally, more details about wavelet packet features and the ways (with codes) to compute those will appear in a future post. For the time being, readers can download and use the feature matrix already created by us.
 
 [R markdown file of this document](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/SVM_wavelet_energy_multiclass_cwru.Rmd)
 
-Last updated: 17$^{th}$ May, 2019
+Last updated: 30$^{th}$ May, 2019

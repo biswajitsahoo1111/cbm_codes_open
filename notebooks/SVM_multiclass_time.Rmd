@@ -32,13 +32,13 @@ We have used time domain features as input to SVM. First data for each fault typ
 
 Before applying SVM, the data are first separated into a training set and a test set. The test set contains 50 rows of fault matrix chosen for each fault type. Thus its size is $(500 \times 10)$. The rest are taken as training set. 
 
-SVM is applied to training set data and best parameters are chosen by cross validation. The best parameters are then applied to test set data to predict final classification result. 
+SVM is applied to training set data and best parameters are chosen by cross validation. The best parameters are then applied to test set data to predict final classification result. We will use R to implement SVM. We will use Python to plot the confusion matrix. 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup}
 library(reticulate)
 use_condaenv("r-reticulate")
 ```
+
 First get the data from [here](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/data/feature_matrix_time_48k_2048_load_1.csv). Save the data in a folder and read it from that folder. 
 ```{r}
 library(e1071)
@@ -94,4 +94,4 @@ It can be seen that the test accuracy is not extremely high but it is not bad ei
 
 [R markdown file of this document](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/SVM_multiclass_time.Rmd)
 
-Last modified: 16$^{\text{th}}$ May, 2019
+Last modified: 30$^{\text{th}}$ May, 2019
