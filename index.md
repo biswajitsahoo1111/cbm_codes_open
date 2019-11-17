@@ -1,5 +1,3 @@
-## Introduction to the problem
-
 Condition based maintenance is the process of doing maintenance only when it is required. This has many advantages along with monetary gain as it precludes periodic maintenance and reduces unplanned downtime. The next logical question is to figure out when maintenance is required. Maintenance is required if fault has either occurred or is imminent. This leads us to the problem of fault diagnosis and prognosis.
 
 In fault diagnosis, fault has already occurred and our aim is to find what type of fault is there and what is its severity. In fault prognosis out aim is to predict the time of occurrence of fault in future, given its present state. These two problem are central to condition based maintenance. There are many methods to solve these problems. These methods can be broadly divided into two groups:
