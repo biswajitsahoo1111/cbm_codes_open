@@ -13,7 +13,7 @@ In data-driven approach, we use operational data of the machine to design algori
 
 In this project we will apply some of the standard machine learning techniques to publicly available data sets and show their results with code. There are not many publicly available data sets in machinery condition monitoring. So we will manage with those that are publicly available. Unlike machine learning community where almost all data and codes are open, in condition monitoring very few things are open, though some people are gradually making codes open. This project is a step towards that direction, even though a tiny one.
 
-This is an ongoing project and modifications and additions of new techniques will be done over time. Python, R, and MATLAB are popular programming languages that are used for machine learning applications. We will use those for our demonstrations. **This page contains results on fault diagnosis only. Results on fault prognosis will be summerized in a separate webpage.**
+This is an ongoing project and modifications and additions of new techniques will be done over time. Python, R, and MATLAB are popular programming languages that are used for machine learning applications. We will use those for our demonstrations. **This page contains results on fault diagnosis only. Results on fault prognosis will be summarized in a separate webpage.**
 
 ## Results using [Case Western Reserve University Bearing Data](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website)
 
@@ -78,3 +78,23 @@ This is an ongoing project and modifications and additions of new techniques wil
 3. [Transient vibration and shock response spectrum plots in MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/transient_vibration_and_SRS_plots.pdf)
 
 4. [Simple examples on finding instantaneous frequency using Hilbert transform](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf) ([MATLAB Code](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf))
+
+Readers who use the processed datasets of this page **must** cite the original data source as
+
+```
+BibTeX citation
+@misc{casewesternbearingdata,
+  url = {https://csegroups.case.edu/bearingdatacenter/home},
+  note = {This data come from Case Western Reserve University Bearing Data Center Website}
+}
+```
+For attribution, readers **may** cite this project as
+```
+BibTeX citation
+@misc{sahoo2016datadriven,
+  author = {Sahoo, Biswajit},
+  title = Data-Driven Machinery Fault Diagnosis},
+  url = {https://biswajitsahoo1111.github.io/cbm_codes_open/},
+  year = {2016}
+}
+```
