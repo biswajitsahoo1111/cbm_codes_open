@@ -17,7 +17,7 @@ For attribution, readers **may** cite this project as
 BibTeX citation
 @misc{sahoo2016datadriven,
   author = {Sahoo, Biswajit},
-  title = Data-Driven Machinery Fault Diagnosis},
+  title = {Data-Driven Machinery Fault Diagnosis},
   url = {https://biswajitsahoo1111.github.io/cbm_codes_open/},
   year = {2016}
 }
