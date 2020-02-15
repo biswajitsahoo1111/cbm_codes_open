@@ -62,9 +62,9 @@ This is an ongoing project and modifications and additions of new techniques wil
   
 ## Enter Deep Learning
 
-1. [Fault diagnosis using convolutional neural network (CNN) (10 classes, sampling frequency: 48k)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Deep_Learning_CWRU_Blog.ipynb) (Overall accuracy: **96.2%**)
+1. [Fault diagnosis using convolutional neural network (CNN)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Deep_Learning_CWRU_Blog.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **96.2%**)
   
-2. [CNN based fault diagnosis using continuous wavelet transform (CWT) (10 classes, sampling frequency: 48k)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/CWRU_CNN_Wavelet_Git_Final.ipynb) (Overall accuracy: **98.2%**)
+2. [CNN based fault diagnosis using continuous wavelet transform (CWT)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/CWRU_CNN_Wavelet_Git_Final.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **98.2%**)
   
 
 (This list will be updated gradually.)
