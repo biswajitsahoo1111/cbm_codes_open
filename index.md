@@ -13,7 +13,7 @@ In data-driven approach, we use operational data of the machine to design algori
 
 In this project we will apply some of the standard machine learning techniques to publicly available data sets and show their results with code. There are not many publicly available data sets in machinery condition monitoring. So we will manage with those that are publicly available. Unlike machine learning community where almost all data and codes are open, in condition monitoring very few things are open, though some people are gradually making codes open. This project is a step towards that direction, even though a tiny one.
 
-This is an ongoing project and modifications and additions of new techniques will be done over time. **Python** and **R** are popular programming languages that are used for machine learning applications. We will use those for our demonstrations. **This page contains results on fault diagnosis only. Results on fault prognosis will be summarized in a separate webpage.**
+This is an ongoing project and modifications and additions of new techniques will be done over time. **Python** and **R** are popular programming languages that are used for machine learning applications. We will use those for our demonstrations. **Tensorflow** will be used for deep learning applications. **This page contains results on fault diagnosis only. Results on fault prognosis will be summarized in a separate webpage.**
 
 ## Results using [Case Western Reserve University Bearing Data](https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website)
 
