@@ -73,7 +73,7 @@ We will first apply traditional feature based methods (so-called shallow learnin
 
 ## Some other related stuff
 
-1. [Fault diagnosis of machines (A non-technical introduction)](https://www.awsar-dst.in/assets/winner_article_2018/30_PhD.pdf)
+1. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
 
 2. [A quick introduction to MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/matlab_intro.pdf)
 
