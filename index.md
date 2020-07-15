@@ -68,9 +68,9 @@ We will first apply traditional feature based methods (so-called shallow learnin
 
 In this section, we will show results of fault diagnosis task using deep learning on the same Case Western Reserve University bearing dataset. Due to the nondeterministic nature of operations used in deep learning and dependence of libraries like `Tensorflow` on computer architecture, readers might obtain slightly different results than those in the notebooks. As a more reliable measure, we report average results of ten iterations. Our models are small enough to permit us to run those that many times in a reasonable amount of time. For reproducibility of our results, we also share the saved models of each notebook. All saved models can be found at [this link](https://github.com/biswajitsahoo1111/cbm_codes_open/tree/master/notebooks/saved_models). A notebook describing the steps to use the saved models can be found [here](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Using_saved_models_tensorflow.ipynb).
 
-1. [Fault diagnosis using convolutional neural network (CNN)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Deep_Learning_CWRU_Blog.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **96.2%**)
+1. [Fault diagnosis using convolutional neural network (CNN) on raw time domain data](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Deep_learning_based_fault_diagnosis_using_CNN_on_raw_time_domain_data.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **98.7%**)
   
-2. [CNN based fault diagnosis using continuous wavelet transform (CWT)](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/CWRU_CNN_Wavelet_Git_Final.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **98.2%**)
+2. [CNN based fault diagnosis using continuous wavelet transform (CWT) of time domain data](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/Deep_learning_based_fault_diagnosis_using_CNN_on_continuous_wavelet_transform_of_time_data.ipynb) (10 classes, sampling frequency: 48k) (Overall accuracy: **99.1%**)
   
 
 (This list will be updated gradually.)
