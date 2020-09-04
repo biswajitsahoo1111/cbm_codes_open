@@ -1,4 +1,4 @@
-## [Codes and Data](https://biswajitsahoo1111.github.io/cbm_codes_open/)
+## [Data-Driven Machinery Fault Diagnosis](https://biswajitsahoo1111.github.io/cbm_codes_open/)
 This repository contains codes and data to reproduce results in machinery condition monitoring. Several public datasets that are commonly used in research have been used in this study. Refer to my [project page](https://biswajitsahoo1111.github.io/cbm_codes_open/) for further details. 
 
 The [project page](https://biswajitsahoo1111.github.io/cbm_codes_open/) and various [blog articles](https://biswajitsahoo1111.github.io/categories/blog/) can be accessed from my [personal website](https://biswajitsahoo1111.github.io/).
