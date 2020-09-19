@@ -1,18 +1,11 @@
 ## [Data-Driven Machinery Fault Diagnosis](https://biswajitsahoo1111.github.io/cbm_codes_open/)
-This repository contains codes and data to reproduce results in machinery condition monitoring. Several public datasets that are commonly used in research have been used in this study. Refer to my [project page](https://biswajitsahoo1111.github.io/cbm_codes_open/) for further details. 
 
-The [project page](https://biswajitsahoo1111.github.io/cbm_codes_open/) and various [blog articles](https://biswajitsahoo1111.github.io/categories/blog/) can be accessed from my [personal website](https://biswajitsahoo1111.github.io/).
+Aim of this project is to produce reproducible results in condition monitoring. In this project, we will tackle the problem of Data-Driven Fault Diagnosis. We will apply some of the standard machine learning techniques to publicly available datasets and show the results with code. This is an ongoing project and will evolve over time. Refer to the [project page](https://biswajitsahoo1111.github.io/rul_codes_open/) for further details.
 
-Readers who use the processed datasets of this page **must** cite the original data source as
+My [other projects](https://biswajitsahoo1111.github.io/project/) and [blog articles](https://biswajitsahoo1111.github.io/categories/blog/) can be accessed from my [personal website](https://biswajitsahoo1111.github.io/).
 
-```
-BibTeX citation
-@misc{casewesternbearingdata,
-  url = {https://csegroups.case.edu/bearingdatacenter/home},
-  note = {This data come from Case Western Reserve University Bearing Data Center Website}
-}
-```
-For attribution, readers **may** cite this project as
+
+For attribution, cite this project as
 ```
 BibTeX citation
 @misc{sahoo2016datadriven,
@@ -22,3 +15,4 @@ BibTeX citation
   year = {2016}
 }
 ```
+Readers should cite original datasets separately.
