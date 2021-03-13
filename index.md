@@ -82,17 +82,19 @@ In this section, we will show results of fault diagnosis task using deep learnin
 
 -------------------------------
 
-1. [Data-Driven Remaining Useful Life (RUL) Prediction](https://biswajitsahoo1111.github.io/rul_codes_open/) 
+1. [Tensorflow 2 code for Attention Mechanisms chapter of Dive into Deep Learning (D2L) book.](https://github.com/biswajitsahoo1111/D2L_Attention_Mechanisms_in_TF)
 
-2. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
+2. [Data-Driven Remaining Useful Life (RUL) Prediction](https://biswajitsahoo1111.github.io/rul_codes_open/) 
 
-3. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/categories/blog/)
+3. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
 
-4. [A quick introduction to MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/matlab_intro.pdf)
+4. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/categories/blog/)
 
-5. [Transient vibration and shock response spectrum plots in MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/transient_vibration_and_SRS_plots.pdf)
+5. [A quick introduction to MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/matlab_intro.pdf)
 
-6. [Simple examples on finding instantaneous frequency using Hilbert transform](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf) ([MATLAB Code](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf))
+6. [Transient vibration and shock response spectrum plots in MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/transient_vibration_and_SRS_plots.pdf)
+
+7. [Simple examples on finding instantaneous frequency using Hilbert transform](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf) ([MATLAB Code](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/hilbert_inst_freq_modulation.pdf))
 
 ------------------------------
 
