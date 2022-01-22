@@ -110,7 +110,7 @@ For attribution, cite this project as
 author = {Sahoo, Biswajit},
 doi = {10.5281/zenodo.5890575},
 month = {4},
-title = {{Data-Driven Machinery Fault Diagnosis}},
+title = {Data-Driven Machinery Fault Diagnosis},
 url = {https://biswajitsahoo1111.github.io/cbm_codes_open/},
 year = {2019}
 }
