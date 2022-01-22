@@ -7,12 +7,15 @@ My [other projects](https://biswajitsahoo1111.github.io/project/) and [blog arti
 
 For attribution, cite this project as
 ```
-BibTeX citation
-@misc{sahoo2016datadriven,
-  author = {Sahoo, Biswajit},
-  title = {Data-Driven Machinery Fault Diagnosis},
-  url = {https://biswajitsahoo1111.github.io/cbm_codes_open/},
-  year = {2016}
+@misc{biswajit_sahoo_2019_5890575,
+  author       = {Biswajit Sahoo},
+  title        = {Data-Driven Machinery Fault Diagnosis},
+  month        = apr,
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.5890575},
+  url          = {https://doi.org/10.5281/zenodo.5890575}
 }
 ```
 Readers should cite original datasets separately.
