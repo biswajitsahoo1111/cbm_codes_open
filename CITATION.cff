@@ -1,10 +1,15 @@
-@misc{biswajit_sahoo_2019_5890575,
-  author       = {Biswajit Sahoo},
-  title        = {Data-Driven Machinery Fault Diagnosis},
-  month        = apr,
-  year         = 2019,
-  publisher    = {Zenodo},
-  version      = {v1.0.0},
-  doi          = {10.5281/zenodo.5890575},
-  url          = {https://doi.org/10.5281/zenodo.5890575}
-}
+cff-version: 1.2.0
+preferred-citation:
+  type: generic
+  authors:
+  - family-names: "Sahoo"
+    given-names: "Biswajit"
+    orcid: "https://orcid.org/0000-0002-8278-5571"
+  doi: "10.5281/zenodo.5890575"
+  month: 4
+  year: 2019
+  title: "Data-Driven Machinery Fault Diagnosis"
+  version: 1.0.0
+  url: "https://biswajitsahoo1111.github.io/cbm_codes_open/"
+  publisher: "Zenodo"
+  
