@@ -89,7 +89,7 @@ In this section, we will show results of fault diagnosis task using deep learnin
 
 3. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
 
-4. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/categories/blog/)
+4. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/category/blog/)
 
 5. [A quick introduction to MATLAB](https://github.com/biswajitsahoo1111/cbm_codes_open/blob/master/notebooks/matlab_intro.pdf)
 
